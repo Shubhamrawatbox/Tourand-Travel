@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Work+Sans:ital,wght@1,300&display=swap');
+
+.hero-container {
+  background: url("../../images/background2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  margin-top: -80px;
+
+}
+.hero-container > h1 {
+  color: #fff;
+  font-size: 6rem;
+  margin-top: 0px;
+  font-family: 'Allison', cursive;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 60px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+}
